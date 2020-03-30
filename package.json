@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "build": "NODE_ENV=production postcss css/tailwind.css -o public/build/tailwind.css",
     "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
-
   },
   "keywords": [],
   "author": "Mars",
   "license": "ISC",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
     "autoprefixer": "^9.7.5",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
