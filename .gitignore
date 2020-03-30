@@ -82,5 +82,4 @@ dist
 
 # firebase
 # plugins/firestore.js
-
-public/build/
+public/build
