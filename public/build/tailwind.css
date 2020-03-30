@@ -623,6 +623,56 @@ video {
   }
 }
 
+.btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* @screen sm {
+  .btn {
+    @apply text-base;
+  }
+} */
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn-primary {
+  background-color: #38b2ac;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #4fd1c5;
+}
+
+.btn-primary:active {
+  background-color: #319795;
+}
+
+.btn-gray {
+  background-color: #cbd5e0;
+  color: #2d3748;
+}
+
+.btn-gray:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-gray:active {
+  background-color: #a0aec0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
